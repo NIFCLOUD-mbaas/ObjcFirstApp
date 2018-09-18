@@ -4,10 +4,10 @@
 
 ## コンテンツ概要
 
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能『データストア』を学習するための問題集です
- * [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の利用登録（無料）が必要です。
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の機能『データストア』を学習するための問題集です
+ * [ニフクラ mobile backend](https://mbaas.nifcloud.com/)の利用登録（無料）が必要です。
 * 問題用プロジェクトにはオンラインランキング機能が実装されていない状態の「連打ゲーム」です
- * 既に実装済みの[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)を利用するための準備（SDK導入など）方法の詳細は[こちら](http://mb.cloud.nifty.com/doc/current/introduction/quickstart_ios.html)をご覧ください。
+ * 既に実装済みの[ニフクラ mobile backend](https://mbaas.nifcloud.com/)を利用するための準備（SDK導入など）方法の詳細は[こちら](https://mbaas.nifcloud.com/doc/current/introduction/quickstart_ios.html)をご覧ください。
 
 ## 問題について
 
@@ -43,7 +43,7 @@
 
 ![mBaaS](/readme-img/mBaaS.png)
 
-*  [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)にログインしアプリの新規作成を行います
+*  [ニフクラ mobile backend](https://mbaas.nifcloud.com/)にログインしアプリの新規作成を行います
  * アプリ名はわかりやすいものにしましょう。例）「renda」
 * アプリが作成されるとAPIキーが２種類（アプリケーションキーとクライアントキー）発行されます
  * 次で使用します。
@@ -51,7 +51,7 @@
 ![Xcode](/readme-img/Xcode.png)
 
 * `AppDelegate.m`を編集します
-* 先程[ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のダッシュボード上で確認したAPIキーを貼り付けます
+* 先程[ニフクラ mobile backend](https://mbaas.nifcloud.com/)のダッシュボード上で確認したAPIキーを貼り付けます
 
 ![問題0-1](/readme-img/0-1.png)
 
@@ -68,8 +68,8 @@
 * `name`を保存するフィールドを「`name`」、`score`を保存するフィールドを「`score`」として保存してください
 
 ### ヒント
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のiOSドキュメントを参考にしてください
- * [データストア（iOS）基本的な使い方](http://mb.cloud.nifty.com/doc/current/datastore/basic_usage_ios.html)
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/)のiOSドキュメントを参考にしてください
+ * [データストア（iOS）基本的な使い方](https://mbaas.nifcloud.com/doc/current/datastore/basic_usage_ios.html)
 
 ### コーディング後の作業
 問題１のコーディングが完了したら、下記の作業を行います
@@ -98,7 +98,7 @@ __【作業1-2】__シュミレーターで実行、「Start」ボタンを押�
  * 「`保存に成功しました。objectId:************`」の場合は保存成功です
  * 「`エラーが発生しました。エラーコード:************`」の場合は保存失敗です
 
-※エラーコードが出た場合は[こちら](http://mb.cloud.nifty.com/doc/current/rest/common/error.html#REST%20API%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)で確認できます
+※エラーコードが出た場合は[こちら](https://mbaas.nifcloud.com/doc/current/rest/common/error.html#REST%20API%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)で確認できます
 
 ### 答え合わせ
 
@@ -116,8 +116,8 @@ __【作業1-2】__シュミレーターで実行、「Start」ボタンを押�
  * ただし、この値は「`rankingNumber`」としてフィールドに設定しているため、「`5`」の代わりに「`rankingNumber`」を使用して設定してください
 
 ### ヒント
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のiOSドキュメントを参考にしてください
- * [データストア（iOS）ランキングを作る](http://mb.cloud.nifty.com/doc/current/datastore/ranking_ios.html#/iOS/)
+* [ニフクラ mobile backend](https://mbaas.nifcloud.com/)のiOSドキュメントを参考にしてください
+ * [データストア（iOS）ランキングを作る](https://mbaas.nifcloud.com/doc/current/datastore/ranking_ios.html#/iOS/)
 
 ### コーディング後の作業
 問題２のコーディングが完了したら、下記の作業を行います
@@ -145,7 +145,7 @@ __【作業2-2】__シュミレーターで実行し、「ランキングを見�
 * 「`検索に成功しました。`」が表示された場合は検索成功です
 * 「`検索に失敗しました。エラーコード:************`」が表示された場合は検索失敗です
 
-※エラーコードが出た場合は[こちら](http://mb.cloud.nifty.com/doc/current/rest/common/error.html#REST%20API%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)で確認できます
+※エラーコードが出た場合は[こちら](https://mbaas.nifcloud.com/doc/current/rest/common/error.html#REST%20API%E3%81%AE%E3%82%A8%E3%83%A9%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)で確認できます
 
 * 検索の状態（成功・失敗）に関係なく、「ランキングを見る」ボタンをタップしても、まだランキングは表示されません
 
