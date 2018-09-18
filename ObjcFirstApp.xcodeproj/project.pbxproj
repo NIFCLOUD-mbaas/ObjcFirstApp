@@ -138,7 +138,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0720;
-				ORGANIZATIONNAME = "NIFCLOUD Corporation";
+				ORGANIZATIONNAME = "FUJITSU CLOUD TECHNOLOGIES LIMITED";
 				TargetAttributes = {
 					BD94A5931D20CABD005E9402 = {
 						CreatedOnToolsVersion = 7.2.1;
